@@ -1,0 +1,75 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+#box-color{
+    width: 10rem;
+    height: 6rem;
+    border: 1px solid #fff;
+    margin: 1rem 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50rem;
+}
+
+.orange{
+    background-color: orange;
+    
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.brown{
+    background-color: brown;
+}
+.white{
+    background-color: white;
+}
+.gray{
+    background-color: gray;
+}
+.pink{
+    background-color: pink;
+}
+.gold{
+    background-color: gold;
+}
+.black{
+    background-color: black;
+}
+.kind{
+    background-color: yellowgreen;
+}
